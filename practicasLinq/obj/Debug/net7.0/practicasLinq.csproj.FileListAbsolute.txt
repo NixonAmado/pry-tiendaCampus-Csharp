@@ -1,0 +1,15 @@
+/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/bin/Debug/net7.0/practicasLinq
+/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/bin/Debug/net7.0/practicasLinq.deps.json
+/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/bin/Debug/net7.0/practicasLinq.runtimeconfig.json
+/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/bin/Debug/net7.0/practicasLinq.dll
+/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/bin/Debug/net7.0/practicasLinq.pdb
+/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.csproj.AssemblyReference.cache
+/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.AssemblyInfoInputs.cache
+/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.AssemblyInfo.cs
+/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.csproj.CoreCompileInputs.cache
+/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.dll
+/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/refint/practicasLinq.dll
+/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.pdb
+/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.genruntimeconfig.cache
+/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/ref/practicasLinq.dll
