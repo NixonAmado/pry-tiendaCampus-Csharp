@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
-using practicasLinq.Clases;
 
-namespace tiendaCampus;
+using tiendaCampus;
 		
     public class Program
     {
-     
     	public static void Main()
     	{
-           
+
 
             int opMenuPrincipal = 0;
             do
@@ -41,17 +39,23 @@ namespace tiendaCampus;
                         continue;
                     case 1:
 
-                        // Producto producto = new();
+                        Producto producto = new();
                         // Guid idG = Guid.NewGuid();
-                        // producto.Id
-                        //producto.RegistrarProducto(productos);
+                        // producto.CodProducto;
+                        producto.RegistrarProducto(Env.Productos);
 
                         break;
                     case 2:
-                        //Categoria categoria = new();
-                        //categoria.RegistrarCategoria(categorias);
+                        Categoria categoria = new();
+                        categoria.RegistrarCategoria(Env.Categorias);
                         break;
                     case 3:
+                        Categoria listarCategoria = new();
+                        if(!listarCategoria.ListarCategorias(Env.Categorias))
+                        {
+                            Console.WriteLine("No existen categorias, asegurate de haber registrado por lo menos una");
+                            Console.ReadKey();
+                        }
                         break;
                     default:
                     break;
@@ -63,7 +67,7 @@ namespace tiendaCampus;
     	}
     
     }
-   
+
     // public class Student{
 
     // 	public int StudentID { get; set; }

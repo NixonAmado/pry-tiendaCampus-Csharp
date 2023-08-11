@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Newtonsoft.Json; // Para trabajar con JSON
+
 
 namespace tiendaCampus;
 
@@ -38,7 +40,8 @@ namespace tiendaCampus;
 
     }
 
-        public void RegistrarProducto(List <Producto> productos){
+        public void RegistrarProducto(List <Producto> productos)
+        {
             Console.Clear();
             Console.WriteLine("**********************************");
             Console.WriteLine("{0, -20}", "REGISTRAR PRODUCTO");
@@ -69,7 +72,9 @@ namespace tiendaCampus;
 
             Producto nuevoProducto = new Producto(codProducto,nombreProducto, stockProducto, stockMinProducto, stockMaxProducto, precioVentaProducto, precioCompraProducto, idCategoriaProducto);
 
-            productos.Add (nuevoProducto);
+            Env.Productos.Add (nuevoProducto);
+
+            string json = JsonConvert.SerializeObject(Env.Productos, Formatting.Indented);
             Console.WriteLine("Se ha añadido con exito");
             Console.ReadKey();
 

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JSm1/C/K3sQWKZbpHMBJwyIAn328W18eSsI84VFA0r0R0xMExqUyt92M8Gwaz+aEbonIuPXAGlJArhLQ9oGKkA==",
+  "dgSpecHash": "PUexVovUxefSdGCKyZkJ5GOJCt1iaPuAswxL+KD6dSxNyzfuqwqfQryy/dxAEVBtQYc8fJugQY3am4av2yXw+Q==",
   "success": true,
-  "projectFilePath": "/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/practicasLinq.csproj",
+  "projectFilePath": "/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/practicasLinq.csproj",
   "expectedPackageFiles": [
-    "/home/arteN01-051/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+    "/home/skylab-150/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

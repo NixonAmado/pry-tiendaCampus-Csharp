@@ -33,23 +33,24 @@ namespace tiendaCampus;
             categorias.Add(nuevaCategoria);
         }
 
-    // public void ListarCategorias(List <Categoria> categorias)
-    // {
-    //     Console.Clear();
-    //     if (categorias.Count = !0 )
-    //     {   
-    //         int anchoColumna = 20;
-    //         int anchoTabla = 10 + (2 * anchoColumna);
-    //         Console.WriteLine("".PadRight(anchoTabla,"-"));
-    //         Console.WriteLine("{0,10}","LISTADO DE CATEGORIAS");
-    //         Console.WriteLine("".PadRight(anchoTabla,"-"));
-    //         Console.WriteLine("{0,20}","| id categoria |","| nombre categoria ");
-    //         foreach (Categoria categoria in categorias)
-    //         {
-    //             Console.WriteLine("{0,20}",$"{categoria.Id}", categoria.Descripcion);
-    //         }
-    //     return true;
-    //     }
-    //     else{ return false;}
-    // }
+    public bool ListarCategorias(List <Categoria> categorias)
+    {
+        Console.Clear();
+        if (categorias.Count != 0 )
+        {   
+            int anchoColumna = 20;
+            int anchoTabla = 10 + (2 * anchoColumna);
+            Console.WriteLine("".PadRight(anchoTabla,'-'));
+            Console.WriteLine("{0,10}","LISTADO DE CATEGORIAS");
+            Console.WriteLine("".PadRight(anchoTabla,'-'));
+            Console.WriteLine("{0,-20}","{1,10}","| id categoria |","| nombre categoria ");
+            foreach (Categoria categoria in categorias)
+            {
+                Console.WriteLine("{0,-20}","{1,10}",$"{categoria.Id}", $"{categoria.Descripcion}");
+            }
+            Console.ReadKey();
+        return true;
+        }
+        else{ return false;}
+    }
 }
