@@ -5,8 +5,6 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "practicasLinq", "practicasLinq.csproj", "{045A571D-5C90-43EC-83CA-EEF3BFA4E55C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "practicasLinq (1)", "practicasLinq\practicasLinq.csproj", "{B7FC13F5-CE89-4CB8-9830-CEF765C2C385}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -1,32 +1,17 @@
-/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/bin/Debug/net7.0/practicasLinq
-/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/bin/Debug/net7.0/practicasLinq.deps.json
-/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/bin/Debug/net7.0/practicasLinq.runtimeconfig.json
-/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/bin/Debug/net7.0/practicasLinq.dll
-/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/bin/Debug/net7.0/practicasLinq.pdb
-/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.csproj.AssemblyReference.cache
-/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.GeneratedMSBuildEditorConfig.editorconfig
-/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.AssemblyInfoInputs.cache
-/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.AssemblyInfo.cs
-/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.csproj.CoreCompileInputs.cache
-/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.dll
-/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/refint/practicasLinq.dll
-/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.pdb
-/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/practicasLinq.genruntimeconfig.cache
-/home/arteN01-051/Documents/nixon/C# -NP/Linq/practicasLinq/obj/Debug/net7.0/ref/practicasLinq.dll
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.csproj.AssemblyReference.cache
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.GeneratedMSBuildEditorConfig.editorconfig
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.AssemblyInfoInputs.cache
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.AssemblyInfo.cs
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.csproj.CoreCompileInputs.cache
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.dll
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/refint/practicasLinq.dll
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.pdb
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/bin/Debug/net7.0/practicasLinq
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/bin/Debug/net7.0/practicasLinq.deps.json
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/bin/Debug/net7.0/practicasLinq.runtimeconfig.json
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/bin/Debug/net7.0/practicasLinq.dll
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/bin/Debug/net7.0/practicasLinq.pdb
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/bin/Debug/net7.0/Newtonsoft.Json.dll
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.csproj.CopyComplete
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.genruntimeconfig.cache
-/home/skylab-150/Documents/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/ref/practicasLinq.dll
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/bin/Debug/net7.0/practicasLinq
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/bin/Debug/net7.0/practicasLinq.deps.json
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/bin/Debug/net7.0/practicasLinq.runtimeconfig.json
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/bin/Debug/net7.0/practicasLinq.dll
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/bin/Debug/net7.0/practicasLinq.pdb
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.csproj.AssemblyReference.cache
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.GeneratedMSBuildEditorConfig.editorconfig
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.AssemblyInfoInputs.cache
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.AssemblyInfo.cs
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.csproj.CoreCompileInputs.cache
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.csproj.CopyComplete
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.dll
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/refint/practicasLinq.dll
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.pdb
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/practicasLinq.genruntimeconfig.cache
+/home/apolt01-032/nixon/pry-tiendaCampus-Csharp/practicasLinq/obj/Debug/net7.0/ref/practicasLinq.dll

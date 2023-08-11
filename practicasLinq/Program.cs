@@ -1,23 +1,34 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
-
+using Newtonsoft.Json;
+using tiendaCampus.Entities;
 using tiendaCampus;
 		
-    public class Program
+    internal class Program
     {
     	public static void Main()
     	{
 
 
             int opMenuPrincipal = 0;
+            if(!Env.ValidarFile(Env.FileName))
+            {
+                File.WriteAllText(Env.FileName, "");
+            }
+            else
+            {
+                Env.LoadData(Env.FileName);                
+            }
+            
+            Env.ImprimirData("Categorias", Env.TiendaCampus1.Categorias);
+
             do
             {
                 Console.Clear();
                 Console.WriteLine("**********************************");
                 Console.WriteLine("{0, 25}", "SUPER TIENDA AB3");
                 Console.WriteLine("**********************************");
-
                 Console.WriteLine("1.Registrar producto");
                 Console.WriteLine("2.Registrar categoria");
                 Console.WriteLine("3.Listar categorias");
@@ -42,20 +53,45 @@ using tiendaCampus;
                         Producto producto = new();
                         // Guid idG = Guid.NewGuid();
                         // producto.CodProducto;
-                        producto.RegistrarProducto(Env.Productos);
-
+                        producto.RegistrarProducto();
+                        Env.DumpToJson();
                         break;
+
                     case 2:
                         Categoria categoria = new();
-                        categoria.RegistrarCategoria(Env.Categorias);
+                        categoria.RegistrarCategoria();
+                        Env.DumpToJson();
                         break;
+
                     case 3:
                         Categoria listarCategoria = new();
-                        if(!listarCategoria.ListarCategorias(Env.Categorias))
+                        var IterableCategorias = listarCategoria.ListarCategorias(); 
+
+                        if(IterableCategorias.Count() != 0)
                         {
                             Console.WriteLine("No existen categorias, asegurate de haber registrado por lo menos una");
                             Console.ReadKey();
                         }
+                        else
+                        {
+                            Env.ImprimirData("CATEGORIAS", IterableCategorias);
+                        }
+                        break;
+
+                    case 4:
+                        Producto listarProducto = new();
+                        var IterableProductos = listarProducto.listarProductos(); 
+
+                        if(IterableProductos.Count() != 0)
+                        {
+                            Console.WriteLine("No existen productos, asegurate de haber registrado por lo menos una");
+                            Console.ReadKey();
+                        }
+                        else
+                        {
+                            Env.ImprimirData("PRODUCTOS", IterableProductos);
+                        }
+
                         break;
                     default:
                     break;
